@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinhtoan</title>
+</head>
+<body>
+<style>
+
+
+
+
+</style>
+<h1> Máy Tính</h1>
+<table border="1px" cellspacing="0" cellpadding ="0" width="100px">
+    <tr><input type="text" id="result"></tr>
+    <tr>
+        <td> <button value="1" onclick="myFunction(this.value)">1</button></br> </td>
+        <td> <button value="2" onclick="myFunction(this.value)">2</button></br></td>
+        <td> <button value="3" onclick="myFunction(this.value)">3</button></br></td>
+        <td> <button value="+" onclick="myFunction(this.value)">+</button></br></td>
+
+    </tr>
+
+
+    <tr>
+        <td> <button value="4" onclick="myFunction(this.value)">4</button></br> </td>
+        <td> <button value="5" onclick="myFunction(this.value)">5</button></br></td>
+        <td> <button value="6" onclick="myFunction(this.value)">6</button></br></td>
+        <td> <button value="-" onclick="myFunction(this.value)">-</button></br></td>
+
+    </tr>
+
+
+    <tr>
+        <td> <button value="7" onclick="myFunction(this.value)">7</button></br> </td>
+        <td> <button value="8" onclick="myFunction(this.value)">8</button></br></td>
+        <td> <button value="9" onclick="myFunction(this.value)">9</button></br></td>
+        <td> <button value="*" onclick="myFunction(this.value)">*</button></br></td>
+
+    </tr>
+
+    <tr>
+        <td> <button value="" onclick="deleteFunction()">D</button></br> </td>
+        <td> <button value="0" onclick="myFunction(this.value)">0</button></br></td>
+        <td> <button value="" onclick="ketQua()">=</button></br></td>
+        <td> <button value="/" onclick="myFunction(this.value)">/</button></br></td>
+
+    </tr>
+</table>
+<script>
+    x = '';
+
+    var idResult = document.getElementById('result');// Lấy ra id result.
+
+    function myFunction(number){
+        //Trên code mình đã truyền vào 01 tham số. Đây chính là giá trị của các ô mà khi mình click vào.
+        x += number;
+        idResult.value = x;// Hiển thị các giá trị lấy được vào input screen Result
+    }
+
+    function deleteFunction(){
+        x = '';
+        idResult.value = x;// Khi xóa thì gắn giá trị trong input = rỗng.
+
+    }
+
+    function ketQua(){
+        idResult.value = eval(idResult.value);
+        x = idResult.value;
+    }
+</script>
+
+
+</body>
+</html>

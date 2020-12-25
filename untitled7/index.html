@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<script>
+    let bangcuuchuong;
+    bangcuuchuong = "<table border='1' width='1000' cellspacing='0' cellpadding='3'>"
+    for ( i = 1; i <= 10; i++) {
+        bangcuuchuong+="<tr>"
+
+        for (j = 1; j <= 10; j++) {
+
+            var product = j * i;
+            bangcuuchuong+="<td>"
+            bangcuuchuong+=(j+" x " + i + " = " + product);
+            bangcuuchuong+="</td>"
+        }
+    }
+    bangcuuchuong+="</table>";
+    document.write(bangcuuchuong)
+
+</script>
+</body>
+</html>

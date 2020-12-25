@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a47ff1e9-964f-45b9-ad0d-e89d26df5734" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML4 File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lJqNB6vgeoYE1I5z6zrcxRTS7I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\untitled7" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a47ff1e9-964f-45b9-ad0d-e89d26df5734" name="Default Changelist" comment="" />
+      <created>1607325498253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607325498253</updated>
+      <workItem from="1607325499357" duration="352000" />
+      <workItem from="1607325862276" duration="3548000" />
+      <workItem from="1607332311453" duration="1593000" />
+      <workItem from="1607336740978" duration="8944000" />
+      <workItem from="1607496984094" duration="2776000" />
+      <workItem from="1607516622297" duration="7183000" />
+      <workItem from="1607571896488" duration="2506000" />
+      <workItem from="1607600320030" duration="872000" />
+      <workItem from="1607602578355" duration="2699000" />
+      <workItem from="1607681163792" duration="14693000" />
+      <workItem from="1607950501839" duration="2855000" />
+      <workItem from="1608022638446" duration="15442000" />
+      <workItem from="1608115014119" duration="9676000" />
+      <workItem from="1608167215277" duration="7122000" />
+      <workItem from="1608187225861" duration="9328000" />
+      <workItem from="1608294683054" duration="6252000" />
+      <workItem from="1608452730363" duration="3800000" />
+      <workItem from="1608547238900" duration="9714000" />
+      <workItem from="1608726704130" duration="6298000" />
+      <workItem from="1608779508878" duration="1222000" />
+      <workItem from="1608781849529" duration="4557000" />
+      <workItem from="1608796301804" duration="4230000" />
+      <workItem from="1608894695588" duration="1034000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607325663914">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607325663914" />
+    <state x="532" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607325734775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="532" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1607325734775" />
+    <state x="414" y="31" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607327841268">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="414" y="31" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1607327841268" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1608296593080">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1608296593080" />
+    <state x="491" y="331" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607516641075">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="491" y="331" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1607516641075" />
+  </component>
+</project>
