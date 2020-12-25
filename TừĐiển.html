@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+</head>
+<body>
+<center>English&Vietnamese's Dictionary</center>
+<br>
+<form>
+    English:<input type="text" id="englishworld"> &nbsp;
+
+    <input type="button" onclick="translatetovietnamese()" value="Translate">
+
+</form>
+<script>
+    function translatetovietnamese() {
+        let a, b;
+        let temp = (document.getElementById("englishworld").value);
+        a = ["monkey", "cat", "dog", "shark", "crab", "mouse", "cow", "buffalo", "fish", "bird"]
+        b = ["con khi", "con meo", "con cho", "ca map", "con cua", "con chuot", "con bo", "con trau", "con ca", "con chim"]
+        for (let i = 0; i < a.length; i++) {       // a.length : là số lượng phần tử a
+            if (temp == a[i]) {        // Nếu temp bằng phần tử a vị trí i , phần tử của mảng a tại vị trí i
+                document.getElementById("traslatetovietnamese").innerText= b[i];    // gán giá trị của phần tử mảng b vị trí i cho thẻ html có id là traslatetovietnamese
+                break;}}}
+
+
+</script>
+<br>
+<h3 id="traslatetovietnamese"></h3>
+</body>
+</html>
