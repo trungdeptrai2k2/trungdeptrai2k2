@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let  mang = [ 4, 5, 12, 20,1,30,3,59,22,20]; // khai báo mảng
+    let min = mang[0]; //  mang[0] chính là sô ở vị trí đầu tiên của mang
+    //mang[1] chính là vị trí số 2 của màng, tương tự với các số sau, vị trí đầu tiên của mảng này có giá trị là 4
+
+    alert(mang);
+    alert("Sau khi tim kiem");
+    // bạn biết cách hoạt động vòng for chưa  rồi b
+    for (var i  = 1; i< mang.length ;i++) // khởi tạo var i  =1; điều kiện i < độ dài mảng; i++
+
+    {
+        if(mang[i] < min) // nếu mang[i] > max đã gán ở trên
+        {min = mang[i];}// thì gán max = mang[i]
+        //sau đó lặp cho đến phần tử cuối cùng của mảng ta sẽ được giá trị lơn nhất ok chưa
+        // ví dụ nha
+        // đầu tiên mình gán max là phần tử dầu tiên max =  mang[0]
+        //sau đó mình sẽ duyệt tất cả phần tử cảu mảng
+        // i = 1 tức nếu
+    }
+    alert("phan tu nho nhat la "+ min);
+    // ok bạn chạy lại đi
+    // document.getElementById('display1').innerHTML = max;
+</script>
+</body>
+</html>
+
+

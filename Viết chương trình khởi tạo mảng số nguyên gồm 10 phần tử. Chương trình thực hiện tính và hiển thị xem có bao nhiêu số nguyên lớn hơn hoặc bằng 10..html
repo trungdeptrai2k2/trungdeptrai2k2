@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<textarea id="display" style="width:250px;height:15px"></textarea>
+<p>Mảng sau khi tìm kiếm</p>
+<textarea id="display1" style="width:250px;height:15px"></textarea>
+<script>
+
+    let  mang = [ 4, 5, 12, 20,1,30,3,59,22,20];
+    var max = mang[0];
+    document.getElementById('display').innerHTML = mang;
+    for (var i  = 1; i< mang.length ;i++)
+    {
+        if(mang[i] > max) // nếu mang[i] > max đã gán ở trên
+            {max = mang[i];}// thì gán max = mang[i]
+        //sau đó lặp cho đến phần tử cuối cùng của mảng ta sẽ được giá trị lơn nhất ok chưa
+        // ví dụ nha
+        // đầu tiên mình gán max là phần tử dầu tiên max =  mang[0]
+        //sau đó mình sẽ duyệt tất cả phần tử cảu mảng
+        // i = 1 tức nếu
+    }
+    document.getElementById('display1').innerHTML = max;
+</script>
+</body>
+</html>
