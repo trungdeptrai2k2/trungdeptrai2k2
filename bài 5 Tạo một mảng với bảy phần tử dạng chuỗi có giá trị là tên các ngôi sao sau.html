@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="find()">
+
+<script>
+
+    var arr1 = ["Leo", "Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe" , "Regulus" ];
+
+    var arr2 = [" Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major" ,"Leo"];
+    var vitri =0;
+
+    function find(str) {
+
+        for (let i = 0; i < arr1.length; i++) {
+            if (str == arr1[i]) {
+                alert(arr2[i]);
+            }
+        }
+    }
+    var str = prompt("moi ban nhap ten");
+    find(str); // gọi hàm
+
+
+
+
+
+
+
+</script>
