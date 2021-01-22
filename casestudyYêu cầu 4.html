@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrNameCustormer = []; //Để lưu tất cả các tên Custormer đc thêm vào
+    let choose = parseInt(prompt("1.Add New Custormer" + "\n" + "2.Delete Custormer"));
+    if (choose === 1) { // nếu chọn choose 1 là add new custormer thì
+        let number = parseInt(prompt("Enter number customer you want to arr :"));// thì numbers hiện lên yêu cầu nhập số lượng user
+        for (let i = 0; i < number; i++) { // cho vòng lặp để người dùng nhập tên khách hàng ,
+            let nameCustomer = prompt("Enter name of customer:");
+            arrNameCustormer.push((nameCustomer)); //chức năng push để thêm vào
+
+        }
+        let result = ""; // khai báo result để hiển thị ra danh sách khách hàng sau khi nhập
+        for (let i = 0; i < arrNameCustormer.length; i++) { //vòng lặp đó dùng để duyệt các giá trị arrNameCustormer và cộng vào chuỗi resul và hiển thị
+            result += arrNameCustormer[i] + "\n"; //cộng vào chuỗi resul
+        }
+        alert(result); // hiển thị
+    }
+
+
+</script>
+</body>
+</html>
