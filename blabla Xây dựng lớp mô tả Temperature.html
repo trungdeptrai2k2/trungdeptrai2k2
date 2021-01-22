@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+
+    let Tempature = function(c) {
+        this.c = parseInt(c) ;
+
+        this.convertCtoK = function() {
+            return (this.c *1.8)/32;
+
+
+        }
+
+        this.convertCtoF = function() {
+            return (this.c +273.15) ;
+
+
+        }
+    }
+
+    var e = new Tempature(25);
+    var ketqua1 = e.convertCtoK();
+    var ketqua2 = e.convertCtoF();
+
+    alert(ketqua1);
+    alert(ketqua2);
+
+
+
+</script>
+</body>
+</html>

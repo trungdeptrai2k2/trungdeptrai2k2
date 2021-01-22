@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<img src="https://www.yeuphuot.com/wp-content/uploads/2017/06/Vinpearl-Phu-Quoc-Resort.jpg" các-thuộc-tính-khác/>
+
+    <h1> RESORT Nguyễn Quốc Trung </h1>
+    Tên:<br>
+    <input id="ten" type="text" name="ten" maxlength="100"><br>
+
+    SỐ CMND:<br>
+    <input id="numberscmnd" type="text" name="ten" maxlength="100"><br><br>
+
+    <input id="ngay" type="date"><br>
+
+    Email : <br>
+    <input id="mail" type="text" name="mail" maxlength="100">
+    <p id="resultEmail"></p>
+
+    <br>
+
+    Địa chỉ :<br>
+    <input id="address" type="text" name="địa chỉ" maxlength="100"><br>
+
+
+    loại dịch vụ :<br>
+    <select id="dichvu">
+        <option value="500">Villa</option>
+        <option value="300">House</option>
+        <option value="100">Room</option>
+    </select><br>
+    Số ngày : <br>
+    <input id="date" type="text" name="số ngày" maxlength="100"><br>
+
+    Loại Customer :<br>
+    <select id="typecustomer">
+        <option>Diamond</option>
+        <option>Platinum</option>
+        <option>Gold</option>
+        <option>Silver</option>
+        <option>Member</option>
+
+        <br> </select>
+
+    Giảm giá :<br>
+    <input id="discount" type="text" name="giảm giá" maxlength="100"><br>
+
+    <button onclick="get()">Submit</button><br>
+
+    <button onclick=" Add ()">Add</button>
+
+    <button onclick="Delete()">Delete Customer</button>
+
+
+
+    <h1 id="typeservice"></h1>
+    <h1 id="songay"></h1>
+    <h1 id="giamgia"></h1>
+    <h1 id="ketqua"></h1>
+    <h1 id="loaicustormorr"></h1>
+    <h1 id="diachi"></h1>
+    <h1 id="result"></h1>
+</div>
+
+
+<script>
+    let datee;
+    let dichvuu;
+    let giamgiaa;
+    let loaikhachhang;
+    let diachii;
+
+    function get() {
+        datee = document.getElementById("date")
+        dichvuu = document.getElementById("dichvu");
+        giamgiaa = document.getElementById("discount");
+        loaikhachhang = document.getElementById("typecustomer");
+        diachii = document.getElementById("address");
+
+        document.getElementById("songay").innerText = datee.value;
+        document.getElementById("typeservice").innerText = dichvuu.value;
+        document.getElementById("giamgia").innerText = giamgiaa.value;
+        document.getElementById("loaicustormorr").innerText = loaikhachhang.value;
+        document.getElementById("diachi").innerText = diachii.value;
+
+        //( Số tiền phải trả = giá loại dịch vụ X số ngày X ( 1 – giảm giá/100 )
+        let sotienphaitra = dichvuu.value * datee.value * (1 - giamgiaa.value / 100);
+
+
+        document.getElementById("ketqua").innerText = ("số tiền phải trả =" + sotienphaitra)
+
+
+        let discountdiachi = 0;
+
+        if (diachii.value == "Đà Nẵng") { //Vì giá trị là 1 con số nên k .value dược
+            discountdiachi = 20;
+        } else if (diachii.value == "Huế") {
+            discountdiachi = 10;
+        } else if (diachii.value == "Quảng Nam") {
+            discountdiachi = 5;
+        }
+
+        let rendays = 0;
+        if (datee.value > 7) {
+            rendays = 30;
+        } else if (datee.value > 5) {
+
+            rendays = 13;
+        }
+
+        let discounttypecustormer = 0;
+        if (loaikhachhang.value == "Diamond") {
+            discounttypecustormer == 15;
+        } else if (loaikhachhang.value == "Platium") {
+            discounttypecustormers == 10;
+        } else if (loaikhachhang.value == "Gold") {
+            discounttypecustormer == 5;
+        } else if (loaikhachhang.value = "Silver") {
+            discounttypecustormer == 2;
+
+        } else if (loaikhachhang.value = "Member") {
+            discounttypecustormer == 0;
+
+        }
+        //Số tiền giảm giá = giảm giá theo địa chỉ + giảm giá theo thời gian lưu trú + giảm giá theo loại Customer
+// khi nào mà lấy giấ trị trên thẻ html thì mới .value
+
+        let sotiengiamgia = discounttypecustormer + rendays + discountdiachi;
+        document.getElementById("result").innerText = ("Số Tiền Giảm Giá =" + sotiengiamgia)
+    }
+
+
+</script>
+</body>
+</html>
